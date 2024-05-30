@@ -1,0 +1,22 @@
+.formStyle {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 30px;
+  border: solid 2px black;
+  padding: 15px;
+  max-width: 500px;
+  flex-wrap: wrap;
+}
+
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.validationMessage {
+  color: red;
+}
